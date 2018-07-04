@@ -1,4 +1,3 @@
-/*body*/
 body {
 	background-color : grey;
 	text-align : center;
@@ -7,9 +6,8 @@ body {
 }
 
 
-/*layout utama*/
 #layout {
-	background : #fff;
+	background : #ffff;
 	width : 980px;
 	margin : auto;
 	text-align : left;
@@ -27,7 +25,6 @@ body {
 }
 
 
-/*menu utama*/
 #menu {
 	width : 100%;
 	height : 40px;
@@ -58,7 +55,6 @@ body {
 }
 
 
-/*runningtext*/
 #runningtext {
 	width	: 100%;
 	height	: 25px;
@@ -70,7 +66,6 @@ body {
 }
 
 
-/*sidebar*/
 #sidebar {
 	padding	: 5px;
 	width	:27%;
@@ -81,7 +76,7 @@ body {
 	border-style : dotted;
 	border-width : 1px;
 }
-/*widget sidebar*/
+
 .widged {
 	width	: 99%;
 	background-bottom	: 5px;
@@ -93,12 +88,12 @@ body {
 	font-size : 100%;
 	margin	: 0px 0px 5px 0px;
 }
-/*pengaturan iklan pd gambar widged*/
+
 .gambariklan	{
 	width	: 99%;
 	height : 150px;
 }
-/*huruf dan judul widget*/
+
 .judulwidged {
 	background		: #d74006;
 	padding 		: 5px 10px 5px 10px;
@@ -133,7 +128,6 @@ body {
 }
 
 
-/*isi*/
 #isi { 
 	padding : 5px;
 	width : 70%;
@@ -161,13 +155,27 @@ body {
 .isiposting h1 {
 	font-size : 20px;
 	font-weight : bold;
+	color : blue;
+	margin-top : 4px;
+	margin bottom : 3px;
+}
+
+.isiposting h2 {
+	font-size : 13px;
+	font-weight : bold;
 	color : #ffffff;
 	margin-top : 4px;
 	margin bottom : 3px;
 }
 
+.isiposting a {
+	text-decoration : none;
+}
+.isiposting a:hover{
+	color : blue;
+}
 
-/* footer*/
+
 #footer {
 	width : 100%;
 	height : 50px;
@@ -189,12 +197,12 @@ body {
 	float : right;
 	padding-right : 5px;
 }
-/*.profil h2{
+.profil h2{
 	text-align : center;
 	color : maroon;
 	font-size : 20px;
 	font-weight : bold;
-}*/
+}
 .isipostingan11 {
 	background-color : #bc9d64;
 	width : 98%;
@@ -208,13 +216,12 @@ body {
 	font-size : 20px;
 	font-weight : bold;
 }
-/*.gambarposting1{
+.gambarposting1{
 	width : 230px;
 	height : 250px;
 	float : right;
 	margin : 10px 5px 5px 10px;
 }
-*/
 
 
 #kontak{
